@@ -4,4 +4,10 @@
     .scrollbar-w-none {
         scrollbar-width: none;
     }
+
+    html, body {
+        @apply h-full w-full;
+        min-height: 600px;
+        min-width: 1200px;
+    }
 }
